@@ -5,15 +5,24 @@ Este projeto realiza uma análise detalhada e modelagem preditiva de um conjunto
 
 ## Fases do Projeto
 *1. Carregamento dos Dados*
-*Iniciamos o projeto carregando o conjunto de dados cars.csv usando a biblioteca Pandas. Essa etapa é crucial para preparar os dados para análise e modelagem subsequentes.
+
+* Iniciamos o projeto carregando o conjunto de dados cars.csv usando a biblioteca Pandas. Essa etapa é crucial para preparar os dados para análise e modelagem subsequentes.
+  
 *2. Análise Estatística Descritiva*
-*Realizamos uma análise estatística descritiva para explorar as características dos dados. Esta fase inclui a avaliação das variáveis qualitativas e quantitativas para entender a distribuição, a média, a mediana, o desvio padrão e outras métricas importantes. A análise descritiva oferece uma visão geral do conjunto de dados e ajuda a identificar padrões iniciais.
+
+* Realizamos uma análise estatística descritiva para explorar as características dos dados. Esta fase inclui a avaliação das variáveis qualitativas e quantitativas para entender a distribuição, a média, a mediana, o desvio padrão e outras métricas importantes. A análise descritiva oferece uma visão geral do conjunto de dados e ajuda a identificar padrões iniciais.
+  
 *3. Análise Exploratória dos Dados*
-*Utilizamos técnicas de visualização para aprofundar nossa compreensão dos dados. Gráficos e plots são empregados para examinar a distribuição das variáveis e suas interações. Esta etapa é essencial para identificar tendências, padrões e possíveis anomalias nos dados, permitindo uma análise mais intuitiva e visual.
+  
+* Utilizamos técnicas de visualização para aprofundar nossa compreensão dos dados. Gráficos e plots são empregados para examinar a distribuição das variáveis e suas interações. Esta etapa é essencial para identificar tendências, padrões e possíveis anomalias nos dados, permitindo uma análise mais intuitiva e visual.
+  
 *4. Análise de Correlação*
-*Examinamos a correlação entre as variáveis quantitativas para entender como as características dos carros estão relacionadas. A matriz de correlação nos ajuda a identificar variáveis que estão fortemente correlacionadas, o que pode influenciar a construção do modelo preditivo e a seleção das variáveis mais relevantes.
+  
+* Examinamos a correlação entre as variáveis quantitativas para entender como as características dos carros estão relacionadas. A matriz de correlação nos ajuda a identificar variáveis que estão fortemente correlacionadas, o que pode influenciar a construção do modelo preditivo e a seleção das variáveis mais relevantes.
+  
 *5. Construção do Modelo de Regressão*
-*Baseados nas análises anteriores, selecionamos o preço como a variável dependente (target) para a modelagem preditiva. Identificamos e utilizamos variáveis independentes, como ano, quilometragem, potência e capacidade do motor, para construir um modelo de regressão linear. Avaliamos o desempenho do modelo utilizando métricas estatísticas como o Erro Quadrático Médio (MSE) e o coeficiente de determinação (R²), para verificar sua capacidade preditiva e adequação aos dados.
+  
+* Baseados nas análises anteriores, selecionamos o preço como a variável dependente (target) para a modelagem preditiva. Identificamos e utilizamos variáveis independentes, como ano, quilometragem, potência e capacidade do motor, para construir um modelo de regressão linear. Avaliamos o desempenho do modelo utilizando métricas estatísticas como o Erro Quadrático Médio (MSE) e o coeficiente de determinação (R²), para verificar sua capacidade preditiva e adequação aos dados.
 
 ## O Que Esperar
 No notebook fornecido, você encontrará uma análise completa do conjunto de dados, desde a importação até a construção e avaliação do modelo preditivo. A abordagem inclui:
